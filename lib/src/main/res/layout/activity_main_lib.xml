@@ -16,7 +16,10 @@
             android:layout_below="@+id/flCentral"
             android:layout_centerHorizontal="true"
             android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
             android:maxLines="1"
+            android:text=""
             android:textSize="40sp"
             android:visibility="gone" />
 
@@ -28,19 +31,19 @@
 
             <ImageView
                 android:id="@+id/imgLogo"
-                android:visibility="gone"
-                android:scaleType="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="50dp" />
+                android:layout_marginBottom="50dp"
+                android:scaleType="center"
+                android:visibility="gone" />
         </FrameLayout>
 
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:background="@drawable/tri"
+            android:layout_height="90dp"
             android:layout_alignParentBottom="true"
-            android:layout_height="120dp">
+            android:background="@drawable/tri">
 
         </LinearLayout>
     </RelativeLayout>
